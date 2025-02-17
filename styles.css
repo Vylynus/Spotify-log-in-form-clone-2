@@ -1,6 +1,124 @@
-body {
-    background-color: #121212;
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 
 
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Spotify Mix Extrabold, sans-serif;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+   
+}
+
+
+.login-main-card {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0px 45px 0px 45px;
+
+}
+
+.wrap {
+    padding: auto;
+}
+
+
+.spotify-logo {
+height: 35px;
+width: 35px;
+
+}
+
+.log-in-button {
+color: black;
+    background-color: rgb(30, 215, 96);
+}
+
+
+
+hr {
+    width: 100vw;
+    height: 1px;
+}
+
+label {
+    text-align: left;
+}
+
+
+
+.logo {
+    height: 35px;
+    width: 35px;
+
+}
+
+.spotify-logo-area {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    background-color: #121212;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  input { 
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  footer {
+    
+  }
